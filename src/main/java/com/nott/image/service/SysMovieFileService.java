@@ -1,7 +1,7 @@
 package com.nott.image.service;
 
-import com.nott.image.entity.SysMovieDet;
-import com.nott.image.mapper.SysMovieDetMapper;
+import com.nott.image.entity.SysMovieFile;
+import com.nott.image.mapper.SysMovieFileMapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -14,6 +14,6 @@ import org.springframework.stereotype.Service;
  * @since 2023-08-09
  */
 @Service
-public class SysMovieDetService extends ServiceImpl<SysMovieDetMapper, SysMovieDet> {
+public class SysMovieFileService extends ServiceImpl<SysMovieFileMapper, SysMovieFile> {
 
 }
