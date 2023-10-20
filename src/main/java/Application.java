@@ -16,7 +16,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableDiscoveryClient
 @ComponentScan(basePackages = "com.nott")
 @SpringBootApplication
-@EnableFeignClients
+@EnableFeignClients(basePackages = "com.nott")
 public class Application {
 
     public static void main(String[] args) {
